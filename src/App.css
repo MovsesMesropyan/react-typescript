@@ -1,0 +1,26 @@
+
+.editor-wrapper {
+  padding: 40px;
+  max-width: 400px;
+}
+.params-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.params-item>* {
+  width: calc(50% - 10px);
+}
+.params-item label {
+  text-align: center;
+}
+.btn-container {
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.btn-container button {
+  cursor: pointer;
+}
